@@ -13,3 +13,23 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Build outputs
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Keystores / signing (do not commit secrets)
+*.jks
+*.keystore
+keystore.properties
+
+# Logs
+*.log
+
+# OS / editor
+Thumbs.db
+.vscode/
